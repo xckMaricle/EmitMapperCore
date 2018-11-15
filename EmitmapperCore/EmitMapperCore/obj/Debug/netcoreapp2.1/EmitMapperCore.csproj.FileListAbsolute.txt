@@ -1,9 +1,0 @@
-F:\emitmapper\EmitmapperCore\EmitmapperCore\EmitmapperCore\bin\Debug\netcoreapp2.1\EmitMapperCore.deps.json
-F:\emitmapper\EmitmapperCore\EmitmapperCore\EmitmapperCore\bin\Debug\netcoreapp2.1\EmitMapperCore.dll
-F:\emitmapper\EmitmapperCore\EmitmapperCore\EmitmapperCore\bin\Debug\netcoreapp2.1\EmitMapperCore.pdb
-F:\emitmapper\EmitmapperCore\EmitmapperCore\EmitmapperCore\obj\Debug\netcoreapp2.1\EmitMapperCore.csproj.CoreCompileInputs.cache
-F:\emitmapper\EmitmapperCore\EmitmapperCore\EmitmapperCore\obj\Debug\netcoreapp2.1\EmitMapperCore.AssemblyInfoInputs.cache
-F:\emitmapper\EmitmapperCore\EmitmapperCore\EmitmapperCore\obj\Debug\netcoreapp2.1\EmitMapperCore.AssemblyInfo.cs
-F:\emitmapper\EmitmapperCore\EmitmapperCore\EmitmapperCore\obj\Debug\netcoreapp2.1\EmitMapperCore.dll
-F:\emitmapper\EmitmapperCore\EmitmapperCore\EmitmapperCore\obj\Debug\netcoreapp2.1\EmitMapperCore.pdb
-F:\emitmapper\EmitmapperCore\EmitmapperCore\EmitmapperCore\obj\Debug\netcoreapp2.1\EmitMapperCore.csprojAssemblyReference.cache
