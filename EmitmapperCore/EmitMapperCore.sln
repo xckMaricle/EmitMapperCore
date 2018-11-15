@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmitMapperCore", "EmitmapperCore\EmitMapperCore.csproj", "{FF567DD3-2CE0-4894-80D2-AEF2FD8AE574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitMapperCore.Test", "EmitMapperCore.Test\EmitMapperCore.Test.csproj", "{CBCCEC5B-280C-430C-8BD6-015B9F516727}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF567DD3-2CE0-4894-80D2-AEF2FD8AE574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF567DD3-2CE0-4894-80D2-AEF2FD8AE574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF567DD3-2CE0-4894-80D2-AEF2FD8AE574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF567DD3-2CE0-4894-80D2-AEF2FD8AE574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBCCEC5B-280C-430C-8BD6-015B9F516727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBCCEC5B-280C-430C-8BD6-015B9F516727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBCCEC5B-280C-430C-8BD6-015B9F516727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBCCEC5B-280C-430C-8BD6-015B9F516727}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {071A63F4-20C7-4C4D-9D5C-F4573229D8C5}
+	EndGlobalSection
+EndGlobal
