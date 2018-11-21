@@ -14,7 +14,7 @@ namespace EmitMapperCore.MappingConfiguration.MappingOperations
 
         public override string ToString()
         {
-            return "DestSrcReadOperation. Source member:" + Source + " Target member:" + Destination.ToString();
+            return $"DestSrcReadOperation. Source member:{Source} Target member:{Destination.ToString()}";
         }
 	}
 }

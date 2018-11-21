@@ -3,11 +3,11 @@ using EmitMapperCore.MappingConfiguration.MappingOperations;
 
 namespace EmitMapperCore
 {
-    public class EmitMapperException: ApplicationException
+    public class EmitMapperException : ApplicationException
     {
-		public IMappingOperation _mappingOperation = null;
+        public IMappingOperation _mappingOperation = null;
         public EmitMapperException()
-        { 
+        {
         }
 
         public EmitMapperException(string message)
@@ -22,16 +22,16 @@ namespace EmitMapperCore
 
         public EmitMapperException(string message, Exception innerException, IMappingOperation mappingOperation)
             : base(
-                BuildMessage(message, mappingOperation), 
+                BuildMessage(message, mappingOperation),
                 innerException
                 )
         {
-			_mappingOperation = mappingOperation;
+            _mappingOperation = mappingOperation;
         }
 
         private static string BuildMessage(string message, IMappingOperation mappingOperation)
         {
-            return message + " " + mappingOperation.ToString();
+            return $"{message} {mappingOperation.ToString()}";
         }
 
     }

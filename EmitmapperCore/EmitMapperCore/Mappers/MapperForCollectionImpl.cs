@@ -147,7 +147,7 @@ namespace EmitMapperCore.Mappers
             )
         {
             TypeBuilder tb = DynamicAssemblyManager.DefineType(
-                "GenericListInv_" + MapperName,
+                $"GenericListInv_{MapperName}",
                 typeof(MapperForCollectionImpl)
                 );
 

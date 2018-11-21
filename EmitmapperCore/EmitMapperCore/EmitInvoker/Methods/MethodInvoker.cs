@@ -18,7 +18,7 @@ namespace EmitMapperCore.EmitInvoker
 
         public static MethodInvokerBase GetMethodInvoker(object targetObject, MethodInfo mi)
         {
-            var typeName = "EmitMapperCore.MethodCaller_" + mi.ToString();
+            var typeName = $"EmitMapperCore.MethodCaller_{mi.ToString()}";
 
             Type callerType = _typesCache.Get<Type>(
                 typeName,
@@ -135,7 +135,7 @@ namespace EmitMapperCore.EmitInvoker
             return
                 AstBuildHelper.CallMethod(
                     mi,
-                    mi.IsStatic ? null : 
+                    mi.IsStatic ? null :
                         new AstCastclassRef(
                             AstBuildHelper.ReadFieldRV(
                                 new AstReadThis() { thisType = typeof(MethodInvokerBase) },

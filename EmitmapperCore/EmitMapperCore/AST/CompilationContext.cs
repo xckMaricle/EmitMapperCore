@@ -110,7 +110,7 @@ namespace EmitMapperCore.AST
                 addStack;
 
             stackCount += stackChange;
-            WriteOutputCommand(opCode.ToString() + " " + comment);
+            WriteOutputCommand($"{opCode.ToString()} {comment}");
         }
 
         private int GetStackChange(StackBehaviour beh)

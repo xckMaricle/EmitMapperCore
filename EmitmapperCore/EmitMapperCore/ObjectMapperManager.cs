@@ -229,7 +229,7 @@ namespace EmitMapperCore
         {
             string fromFullName = from == null ? "null" : from.FullName;
             string toFullName = to == null ? "null" : to.FullName;
-            return "ObjectsMapper" + instanceCount + "_" + fromFullName + "_" + toFullName;
+            return $"ObjectsMapper{instanceCount}_{fromFullName}_{toFullName}";
         }
 
         #endregion
@@ -248,7 +248,7 @@ namespace EmitMapperCore
         }
     }
 
-   public class MapperKey
+    public class MapperKey
     {
         Type _TypeFrom;
         Type _TypeTo;
